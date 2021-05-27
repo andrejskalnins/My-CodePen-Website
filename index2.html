@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles2.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <!--User Story #1: My product landing page should have a header element with a corresponding id="header".-->
+
+  <header id="header">
+    <img src="https://www.ericjeckert.com/mazes/wp-content/uploads/2017/04/nora-vasconcellos2.jpg" alt="company logo"
+      id="header-img">
+    <ul>
+      <li><a id="logo-text"> Nora's <br> Skateboarding <br> School</a></li>
+    </ul>
+    <nav id="nav-bar">
+
+      <ul>
+        <li> <a class="nav-link" href="#about">About</a> </li>
+        <li> <a class="nav-link" href="#benefits">Program</a></li>
+        <li> <a class="nav-link" href="#pricing-nav">Pricing</a> </li>
+      </ul>
+    </nav>
+
+  </header>
+  <section id="sign-up-form">
+    <h1> Sign up here for Nora's skate school</h1>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+      <input id="name" name="name" type="text" placeholder="Name" required>
+      <input id="email" name="email" type="email" placeholder="Your email address" required>
+      <input id="submit" type="submit" value="Get Started" class="btn">
+    </form>
+  </section>
+  <section class="benefits" id="benefits">
+    <h1> Key focus <span>of </span> the classes</h1>
+
+    <ul>
+      <li> <strong>Stability </strong>-<span>slides, grinds, mannys</span> </li>
+      <li><strong>Strength</strong> - <span>pop, resilience, absorb impact</span></li>
+      <li> <strong>Power </strong>- <span>pop, quick feet</span></li>
+      <li><strong>Reactivity</strong> - <span>pop, light & quick footedness</span></li>
+      <li><strong>Injury reduction</strong> - <span>avoid time off your board</span></li>
+      <li> <strong>Endurance </strong>- <span>skate for longer & at a high level for longer</span></li>
+      <li><strong> Good movement</strong> - <span>feel better on & off your board</span></li>
+      <li><strong>Body awareness</strong> - <span>more control over your body & board</span></li>
+      <li> <strong>Longevity</strong> - <span>skate as long as you possibly can</span></li>
+      <li><strong>Recover faster</strong> - <span>more resilience = faster recovery</span></li>
+      <li><strong>Guidance</strong> - <span>trick tips for virtually any trick you wish to learn</span></li>
+    </ul>
+
+  </section>
+  <section class="video-section">
+
+    <div class="video">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/aqdzySYTtj8"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <div class="video-text">
+      <h1>Meet Nora Vasconcellos </h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, velit labore, porro consectetur corrupti
+        voluptates eligendi sint error odio nesciunt accusamus magni, animi consequatur non minima. Distinctio rem ex
+        repellat?</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, velit labore, porro consectetur corrupti
+        voluptates eligendi sint error odio nesciunt accusamus magni, animi consequatur non minima. Distinctio rem ex
+        repellat?</p>
+        <a href="https://www.huckmag.com/outdoor/skate/nora-vasconcellos-interview-future-skateboarding/" target="_blank">Read more about Nora</a>
+    </div>
+
+  </section>
+  <section id="pricing-nav">
+    <h2 class="pricing-section">Pricing Plans</h2>
+    <section id="pricing-boxes">
+
+      <div class="pricing" id="drop-in">
+        <!-- <div class="header">Drop-in</div> -->
+        <h3 class="tier">Drop-in</h3>
+        <ol>
+          <li class="pricing-txt-btn">$8 / per class</li>
+          <li>Try out a class</li>
+          <li>Drop-in anytime </li>
+          <li>Skateboards supplied</li>
+          <li class="pricing-txt-btn"><a href="#" class="btn2">Sign Up</a></li>
+        </ol>
+      </div>
+      <div class="pricing" id="pro">
+        <!-- <div class="header">Pro</div> -->
+        <h3 class="tier">Pro</h3>
+        <ol>
+          <li class="pricing-txt-btn">$35 / month</li>
+          <li>Get taught regularly</li>
+          <li>Improve weekly</li>
+          <li>*Bonus grip-tape art classes</li>
+          <li class="pricing-txt-btn">
+          <a href="#" class="btn2">Sign Up</a></li>
+        </ol>
+      </div>
+      <div class="pricing" id="private">
+        <!-- <div class="header">Private</div> -->
+        <h3 class="tier">Private</h3>
+        <ol>
+          <li class="pricing-txt-btn">$50 / hr</li>
+          <li>One on One coaching</li>
+          <li>Progress quicker</li>
+          <li>Customised training plans</li>
+          <li class="pricing-txt-btn"><a href="#" class="btn2">Sign Up</a></li>
+        </ol>
+      </div>
+    </section>
+  </section>
+  <div class="about-section" id="about">
+
+    <div class="classes">
+      <h3 class="about-h3">About</h3>
+      <p class="about-text"> Nora's Skateboarding School was started in Boston, MA in 2020 by Welcome Skateboards.</p>
+
+      <p class="about-text"> Skate ipsum dolor sit amet consectetur adipisicing elit. Omnis ea in laboriosam rerum odio.
+        Omnis maiores rem labore voluptatibus! Nobis maiores rerum sed porro beatae laboriosam ex quia, quod iusto.</p>
+      <p class="about-text">Skate ipsum dolor sit amet consectetur adipisicing elit. Voluptas similique accusamus
+        mollitia cum, porro cumque! Pariatur laborum nesciunt tempora suscipit, ex voluptatibus sequi eligendi unde
+        incidunt. Beatae deserunt doloremque id!.</p>
+      <p class="about-text">Skate ipsum dolor sit amet consectetur adipisicing elit. Voluptas similique accusamus
+        mollitia cum, porro cumque! Pariatur laborum nesciunt tempora suscipit, ex voluptatibus sequi eligendi unde
+        incidunt. Beatae deserunt doloremque id!.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; Practice Makes Perfect 2021
+  </footer>
+</body>
+
+</html>
